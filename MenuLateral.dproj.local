@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/09/09 09:06:38.000.130,=C:\Users\amval\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/09 11:44:17.000.305,=C:\Users\amval\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 09:34:09.000.356,=C:\Users\amval\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 09:39:22.000.944,C:\Users\amval\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Treinamento\Delphi\Menu Lateral\umain.dfm</Transaction>
+    <Transaction>2024/10/03 09:39:22.000.944,C:\Users\amval\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Treinamento\Delphi\Menu Lateral\umain.pas</Transaction>
+    <Transaction>2024/10/03 09:39:53.000.763,C:\Users\amval\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj=C:\Treinamento\Delphi\Menu Lateral\MenuLateral.dproj</Transaction>
+    <Transaction>2024/10/03 09:40:23.000.613,C:\Treinamento\Delphi\Menu Lateral\umain.dfm=C:\Treinamento\Delphi\Menu Lateral\View\umain.dfm</Transaction>
+    <Transaction>2024/10/03 09:40:23.000.613,C:\Treinamento\Delphi\Menu Lateral\umain.pas=C:\Treinamento\Delphi\Menu Lateral\View\umain.pas</Transaction>
+    <Transaction>2024/10/03 13:45:37.000.409,=C:\Treinamento\Delphi\Menu Lateral\View\ucadastropadrao.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,213 @@
+object FrmCadastroPadrao: TFrmCadastroPadrao
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'FrmCadastroPadrao'
+  ClientHeight = 599
+  ClientWidth = 784
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 15
+  object PnlTopo: TPanel
+    Left = 0
+    Top = 0
+    Width = 784
+    Height = 53
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 16382457
+    ParentBackground = False
+    TabOrder = 0
+    object BtnInserir: TSpeedButton
+      Left = 3
+      Top = 1
+      Width = 124
+      Height = 58
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 0
+      Caption = 'Inserir'
+      Flat = True
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Margin = 40
+      NumGlyphs = 2
+      ParentFont = False
+    end
+    object BtnAlterar: TSpeedButton
+      Left = 128
+      Top = 1
+      Width = 124
+      Height = 58
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 0
+      Caption = 'Alterar'
+      Flat = True
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Margin = 40
+      NumGlyphs = 2
+      ParentFont = False
+    end
+    object BtnExcluir: TSpeedButton
+      Left = 252
+      Top = 1
+      Width = 124
+      Height = 58
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 0
+      Caption = 'Excluir'
+      Flat = True
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Margin = 40
+      NumGlyphs = 2
+      ParentFont = False
+    end
+    object BtnGravar: TSpeedButton
+      Left = 375
+      Top = 1
+      Width = 124
+      Height = 58
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 0
+      Caption = 'Gravar'
+      Flat = True
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Margin = 40
+      NumGlyphs = 2
+      ParentFont = False
+    end
+    object BtnCancelar: TSpeedButton
+      Left = 498
+      Top = 1
+      Width = 124
+      Height = 58
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 0
+      Caption = 'Cancelar'
+      Flat = True
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Margin = 40
+      NumGlyphs = 2
+      ParentFont = False
+    end
+    object BtnSair: TSpeedButton
+      Left = 621
+      Top = 1
+      Width = 124
+      Height = 58
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 0
+      Caption = 'Sair'
+      Flat = True
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Margin = 40
+      ParentFont = False
+      OnClick = BtnSairClick
+    end
+  end
+  object PnlFundo: TPanel
+    Left = 0
+    Top = 53
+    Width = 784
+    Height = 546
+    Margins.Left = 0
+    Margins.Top = 0
+    Margins.Right = 0
+    Margins.Bottom = 0
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 1
+    ExplicitTop = 59
+    ExplicitWidth = 873
+    ExplicitHeight = 495
+    object PnlDados: TPanel
+      Left = 72
+      Top = 31
+      Width = 641
+      Height = 160
+      BevelOuter = bvNone
+      TabOrder = 0
+      object GrbDados: TGroupBox
+        Left = 42
+        Top = 37
+        Width = 513
+        Height = 92
+        TabOrder = 0
+      end
+    end
+    object PnlGrid: TPanel
+      Left = 104
+      Top = 253
+      Width = 641
+      Height = 180
+      BevelOuter = bvNone
+      TabOrder = 1
+      DesignSize = (
+        641
+        180)
+      object LblTotRegistros: TLabel
+        Left = 485
+        Top = 150
+        Width = 64
+        Height = 15
+        Anchors = [akTop, akRight]
+        Caption = 'Contador: 0'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object GrbGrid: TGroupBox
+        Left = 21
+        Top = 8
+        Width = 529
+        Height = 136
+        TabOrder = 0
+      end
+    end
+  end
+end
