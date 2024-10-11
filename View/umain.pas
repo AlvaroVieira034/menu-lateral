@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.ExtCtrls, ucadastropadrao;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.ExtCtrls, ucadastropadrao,
+  System.ImageList, Vcl.ImgList;
 
 type
   TFrmMain = class(TForm)
@@ -17,6 +18,7 @@ type
     BtnClientes: TSpeedButton;
     BtnMenu: TSpeedButton;
     PnlBarra: TPanel;
+    ImageList: TImageList;
     procedure BtnMenuClick(Sender: TObject);
     procedure BtnSairClick(Sender: TObject);
     procedure PnlLateralMouseEnter(Sender: TObject);
@@ -41,6 +43,8 @@ implementation
 
 procedure TFrmMain.BtnClientesClick(Sender: TObject);
 begin
+  ContrairMenu();
+
   if not Assigned(FrmCadastroPadrao) then
     FrmCadastroPadrao := TFrmCadastroPadrao.Create(Self);
 
